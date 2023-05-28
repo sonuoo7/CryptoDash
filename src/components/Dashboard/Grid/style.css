@@ -1,0 +1,142 @@
+.grid-container{
+    width: 320px;
+    /* height: 320px; */
+    background-color: var(--darkgray);
+    border: 2px solid var(--darkgray);
+    border-radius: 0.75rem;
+}
+
+.grid-container:hover{
+    border-color: var(--green)!important;
+    transition: all 0.3s;
+}
+
+.grid-container-red:hover{
+    border-color: var(--red) !important;
+    transition: all 0.3s; 
+}
+.info-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+.coin-logo{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.coin-symbol{
+    color:var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.coin-name{
+     color:var(--gray);
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+.name-col{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+
+.chip-flex{
+    display: flex;
+    flex-direction: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin:1rem 1.5rem;
+}
+.prise-flex{
+    border: 2px solid var(--green);
+    border-radius: 1rem;
+    padding: 0.35rem 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--green);
+    min-width: 70px;
+}
+.prise-flex:hover{
+     background-color: var(--green) !important;
+    color:var(--white) !important;
+    transition: all 0.3s;
+}
+.chip-red{
+       border: 2px solid var(--red);
+     color: var(--red);
+}
+.chip-red:hover{
+    background-color: var(--red) !important;
+    color:var(--white) !important;
+    transition: all 0.3s;
+}
+.icon-chip{
+   border: 2px solid var(--green);
+    border-radius: 50%;
+    height: 2rem !important;
+    width: 2rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: var(--green); 
+}
+.icon-chip:hover{
+   background-color: var(--green) !important;
+    color:var(--white) !important;
+    transition: all 0.3s;   
+}
+.icon-red{
+ border: 2px solid var(--red);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: var(--red);    
+}
+
+.icon-red:hover{
+  background-color: var(--red) !important;
+    color:var(--white) !important;
+    transition: all 0.3s;  
+}
+.info-container{
+    margin: 1.5rem;
+}
+.coin-price{
+    color: var(--green);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.total_value{
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35rem 1.25rem;
+    margin-right: -20px;
+}
+
+@media only screen and (max-width: 400px){
+p.total_value {
+       margin-left: 10px;
+
+}
+}
+
+
+
+
+
+
+
+

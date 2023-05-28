@@ -1,0 +1,16 @@
+.coins-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    margin:0rem 1.5rem;
+}
+@media only screen and (max-width: 400px){
+.tagp{
+    display: none;
+    margin-left: -50px;
+}
+.selectprice{
+    margin-left: -15px;
+}
+}

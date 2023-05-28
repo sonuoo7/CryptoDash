@@ -1,0 +1,180 @@
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.list-row:hover {
+  transition: all 0.3s;
+  background-color: var(--darkgray);
+}
+.list-row td {
+  text-align: left;
+  width: 18%;
+}
+
+.td-imgae {
+  width: 3rem !important;
+  margin-right: 2rem;
+}
+.mobile-td-mkt {
+  display: none;
+}
+.total_value1{
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35rem 1.25rem;
+    margin-right: -20px;
+}
+@media only screen and (max-width: 1100px) {
+  .td-icon {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .td-total-volume {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .desktop-td-mkt {
+    display: none;
+  }
+  .mobile-td-mkt {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .list-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 0.1rem; */
+    border-radius: 0.25rem;
+    font-size: 0.07rem !important;
+    /* padding: 0.5rem !important ; */
+    margin: 0;
+  }
+  .td-imgae {
+    width: 0.01rem !important;
+  }
+  tr.list-row td {
+    text-align: left;
+    width: 1%;
+    font-size: 0.7rem;
+  }
+  td.chip-flex {
+    display: flex;
+    flex-direction: flex-start;
+    /* gap: 0.2rem; */
+    align-items: center;
+    /* margin: 0.2rem 0.5rem; */
+  }
+  td.prise-flex.chip-red {
+   border: 2px solid var(--green);
+    border-radius: 1rem;
+    /* padding: 0.35rem 0.25rem; */
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: var(--green);
+    min-width: 20px;
+    gap:0.1rem;
+  }
+  div.prise-flex{
+     border: 2px solid var(--green);
+    border-radius: 1rem;
+    /* padding: 0.35rem 0.25rem; */
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: var(--green);
+    min-width: 20px;
+    gap:0.1rem;
+  }
+  p.total_value1 {
+    color: var(--gray);
+    font-size: 0.8rem;
+    margin-left: -32px;
+        /* gap:0.1rem; */
+
+    /* font-weight: 500; */
+    /* padding: 0.20rem 1rem; */
+}
+  .icon-chip {
+    border: 05px solid var(--green);
+    height: 0.5rem !important;
+    width: 0.5rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    color: var(--green);
+  }
+ h3.coin-price {
+    color: var(--green);
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin:0.5rem ;
+  }
+  .td-total-volume {
+    color: var(--gray);
+    font-size: 0.3rem;
+  }
+  img.coin-logo {
+    height: 2rem;
+    width: 2rem;
+  }
+  p.coin-symbol {
+    color: var(--white);
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  p.coin-name {
+    color: var(--gray);
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .name-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+div.MuiSelect-select {
+    height: auto;
+    min-height: 1.4375em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.css-qiwgdb.css-qiwgdb.css-qiwgdb {
+    padding-right: 20px;
+}
+@media only screen and (max-width: 400px){
+.inverse {
+    flex-direction: column-reverse;
+}
+}
+@media only screen and (max-width: 400px){
+.text-select {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+}
+.select-flex, .text-select {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
